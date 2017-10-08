@@ -11,9 +11,4 @@
 |**URL** **Params** |  **Users:**<br /><br />/Sisalfa/getAllUsers<br />/Sisalfa/addUser<br />/Sisalfa/removeUser<br />/Sisalfa/alterUser<br /><br />**Context:**<br /><br />/Sisalfa/getAllContexts<br />/Sisalfa/addContext<br />/Sisalfa/removeContext<br /> /Sisalfa/alterContext<br /><br />**Challenge:**<br /><br />/Sisalfa/getAllChallenges<br />/Sisalfa/addChallenge<br />/Sisalfa/removeChallenge</br>/Sisalfa/alterChallenge</br> |
 |**Data** **Params** | { <br />  User: { <br />    nome: [string], <br />  } <br />}<br /><br />{ <br /><br />   Context: {<br />    nome: [string],<br />   idUsuario: [long], <br />    imagem: [string], <br />    som: [string], <br />    video: [string], <br />  } <br />}<br /><br />{ <br /> <br />  Challenge: {<br />    palavra: [string],<br />    idUsuario: [string], <br />    idContexto: [string], <br />    som: [string], <br />    video: [string], <br />    imagem: [string], <br />  } <br />}<br /><br />   |
 |**Sample Call in Html file** | $.ajax({<br />  url: "/Sisalfa/addUser",<br />  dataType: "json",<br />  data : { <br />    u: { <br />      nome : "Joao"<br />    }<br />  },<br />  type : "POST",<br />  success : function(r) {<br />    console.log(r);<br />  }<br />});<br />  |
-
-## Contributors
-
-* [Robson Alves](https://github.com/robsonalvz)
-* [Matheus Nícolas](https://github.com/matheusnicolas)
-* [Ayla Rebouças](https://github.com/ayladebora)
+)
