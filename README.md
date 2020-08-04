@@ -3,7 +3,7 @@ Sisalfa é um Projeto e Desenvolvimento de um Sistema Colaborativo para apoiar o
 
 ## Dependência
 
-- MySQL 8.0.11
+- PostgreSQL 12.3
 - Tomcat 8.5
 
 ## Operations 
