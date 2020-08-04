@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ufpb.sisalfa</groupId>
-    <artifactId>meuProjetoWeb</artifactId>
+    <artifactId>Sisalfa-back</artifactId>
     <packaging>war</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>sisalfa</name>
 
     <build>
@@ -69,11 +69,11 @@
 		    <artifactId>hibernate-jpa-2.1-api</artifactId>
 		    <version>1.0.2.Final</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.11</version>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.2.14</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/antlr/antlr -->
 		<dependency>
